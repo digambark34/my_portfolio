@@ -122,8 +122,8 @@ const Contact: React.FC = () => {
     },
     {
       icon: <FaExternalLinkAlt />,
-      name: "Scalebrix",
-      url: "https://scalebrix.in",
+      name: "Portfolio",
+      url: "https://digambark34.netlify.app",
       color: "#667eea"
     }
   ];

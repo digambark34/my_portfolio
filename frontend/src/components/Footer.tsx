@@ -35,8 +35,8 @@ const Footer: React.FC = () => {
       icon: <FaEnvelope />
     },
     {
-      name: 'Scalebrix',
-      url: 'https://scalebrix.in',
+      name: 'Portfolio',
+      url: 'https://digambark34.netlify.app',
       icon: <FaExternalLinkAlt />
     }
   ];
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           >
             <h3 className="footer-title">Digambar Kothawale</h3>
             <p className="footer-description">
-              Full Stack Developer & SaaS Cofounder passionate about creating 
+              Full Stack Developer passionate about creating 
               innovative solutions with cutting-edge technologies. Building the 
               future, one line of code at a time.
             </p>

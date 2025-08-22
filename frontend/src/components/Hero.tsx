@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   
   const texts = useMemo(() => [
     "Full Stack Developer",
-    "SaaS Cofounder", 
+    "Web Developer", 
     "AR Innovator",
     "Problem Solver",
     "AI Enthusiast",
@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             Building scalable web applications with cutting-edge technologies. 
-            Cofounder of <strong>Scalebrix</strong> - an AI-driven SaaS platform for marketing automation.
+            Experienced in full-stack development with a focus on React, Node.js, and modern cloud platforms.
             Passionate about creating innovative solutions that make a difference.
           </motion.p>
 
@@ -135,14 +135,14 @@ const Hero: React.FC = () => {
               <FaEnvelope />
             </motion.a>
             <motion.a 
-              href="https://scalebrix.in" 
+              href="https://digambark34.netlify.app" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 360 }}
               whileTap={{ scale: 0.9 }}
-              className="scalebrix-link"
+              className="portfolio-link"
             >
-              <span>S</span>
+              <FaExternalLinkAlt />
             </motion.a>
           </motion.div>
         </motion.div>

@@ -58,10 +58,10 @@ const Achievements: React.FC = () => {
       year: "2019"
     },
     {
-      title: "SaaS Cofounder",
-      description: "Successfully cofounded Scalebrix, an AI-driven SaaS platform for marketing automation",
+      title: "Full Stack Development",
+      description: "Successfully developed multiple enterprise-level web applications using modern technology stack",
       icon: <FaGem />,
-      category: "Entrepreneurship",
+      category: "Development",
       year: "2024",
       highlight: true
     },
@@ -137,8 +137,8 @@ const Achievements: React.FC = () => {
             <div className="stat-item">
               <div className="stat-icon">🚀</div>
               <div className="stat-content">
-                <span className="stat-number">1</span>
-                <span className="stat-label">SaaS Cofounder</span>
+                <span className="stat-number">5+</span>
+                <span className="stat-label">Years Experience</span>
               </div>
             </div>
           </motion.div>

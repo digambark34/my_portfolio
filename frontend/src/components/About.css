@@ -175,11 +175,11 @@
   margin: 0;
 }
 
-.scalebrix-highlight {
+.portfolio-highlight {
   margin-top: 2rem;
 }
 
-.scalebrix-card {
+.portfolio-card {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 2rem;
@@ -192,7 +192,7 @@
   overflow: hidden;
 }
 
-.scalebrix-card::before {
+.portfolio-card::before {
   content: '';
   position: absolute;
   top: 0;
@@ -204,32 +204,22 @@
   transform: translate(30px, -30px);
 }
 
-.scalebrix-icon {
+.portfolio-icon {
   font-size: 3rem;
   flex-shrink: 0;
 }
 
-.scalebrix-content h3 {
+.portfolio-content h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-.scalebrix-content p {
+.portfolio-content p {
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;
   opacity: 0.9;
-}
-
-.scalebrix-content a {
-  color: #fbbf24;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.scalebrix-content a:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -269,13 +259,13 @@
     font-size: 1.2rem;
   }
 
-  .scalebrix-card {
+  .portfolio-card {
     flex-direction: column;
     text-align: center;
     padding: 1.5rem;
   }
 
-  .scalebrix-content h3 {
+  .portfolio-content h3 {
     font-size: 1.3rem;
   }
 }

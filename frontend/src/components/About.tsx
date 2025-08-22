@@ -49,8 +49,8 @@ const About: React.FC = () => {
               </p>
               
               <p>
-                As the <strong>Cofounder of Scalebrix</strong>, I'm building an AI-driven SaaS 
-                platform for marketing automation. My journey includes developing cutting-edge 
+                As a <strong>Full Stack Developer</strong>, I specialize in building scalable web 
+                applications and innovative digital solutions. My journey includes developing cutting-edge 
                 applications using the MERN stack, AR technologies, and cloud platforms like AWS.
               </p>
 
@@ -123,15 +123,14 @@ const About: React.FC = () => {
             </motion.div>
           </div>
 
-          <motion.div variants={itemVariants} className="scalebrix-highlight">
-            <div className="scalebrix-card">
-              <div className="scalebrix-icon">🚀</div>
-              <div className="scalebrix-content">
-                <h3>Cofounder @ Scalebrix</h3>
+          <motion.div variants={itemVariants} className="portfolio-highlight">
+            <div className="portfolio-card">
+              <div className="portfolio-icon">�</div>
+              <div className="portfolio-content">
+                <h3>Full Stack Developer</h3>
                 <p>
-                  Building an AI-driven SaaS platform for marketing automation at 
-                  <a href="https://scalebrix.in" target="_blank" rel="noopener noreferrer"> scalebrix.in</a>. 
-                  Transforming how businesses approach marketing with cutting-edge AI technology.
+                  Building innovative web applications and digital solutions with modern technologies. 
+                  Specializing in React, Node.js, Python, and cloud platforms to create scalable solutions.
                 </p>
               </div>
             </div>
