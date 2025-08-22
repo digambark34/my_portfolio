@@ -179,7 +179,8 @@ const Contact: React.FC = () => {
               </div>
 
               <div className="social-links">
-                <h4 className="social-title">Connect With Me</h4>
+                <h4 className="social-title">Follow Me</h4>
+                <p className="social-description">Interested in my journey? Connect with me to stay updated on my latest projects and insights!</p>
                 <div className="social-grid">
                   {socialLinks.map((social, index) => (
                     <motion.a
