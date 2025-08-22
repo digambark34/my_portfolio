@@ -64,17 +64,41 @@
 }
 
 .timeline-content {
-  background: white;
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
   position: relative;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent, rgba(251, 191, 36, 0.05), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .timeline-content:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 
+    0 8px 25px rgba(0, 0, 0, 0.3),
+    0 4px 10px rgba(102, 126, 234, 0.2);
+  border-color: rgba(251, 191, 36, 0.6);
+}
+
+.timeline-content:hover::before {
+  opacity: 1;
 }
 
 .timeline-item.left .timeline-content::after {
@@ -85,7 +109,7 @@
   width: 0;
   height: 0;
   border: 15px solid transparent;
-  border-left-color: white;
+  border-left-color: rgba(30, 41, 59, 0.7);
 }
 
 .timeline-item.right .timeline-content::after {
@@ -96,7 +120,7 @@
   width: 0;
   height: 0;
   border: 15px solid transparent;
-  border-right-color: white;
+  border-right-color: rgba(30, 41, 59, 0.7);
 }
 
 .timeline-marker {
@@ -145,8 +169,9 @@
 .job-title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #ffffff;
   margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .company-info {
@@ -159,10 +184,11 @@
 .company-name {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #2563eb;
+  color: #fbbf24;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .job-type {
@@ -178,7 +204,8 @@
   display: flex;
   gap: 1rem;
   font-size: 0.9rem;
-  color: #64748b;
+  color: #e2e8f0;
+  font-weight: 500;
 }
 
 .duration, .location {
@@ -194,8 +221,9 @@
 .achievements h4 {
   font-size: 1rem;
   font-weight: 600;
-  color: #374151;
+  color: #ffffff;
   margin-bottom: 0.75rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .achievements ul {
@@ -208,22 +236,24 @@
   position: relative;
   padding-left: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #4b5563;
+  color: #e2e8f0;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 .achievements li::before {
   content: '▶';
   position: absolute;
   left: 0;
-  color: #2563eb;
+  color: #fbbf24;
   font-size: 0.8rem;
 }
 
 .skills-used h4 {
   font-size: 1rem;
   font-weight: 600;
-  color: #374151;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   margin-bottom: 0.75rem;
 }
 
@@ -234,13 +264,15 @@
 }
 
 .skill-tag {
-  background: linear-gradient(45deg, #e0f2fe, #b3e5fc);
-  color: #0277bd;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+  color: #ffffff;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: 500;
-  border: 1px solid rgba(2, 119, 189, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .experience-summary {

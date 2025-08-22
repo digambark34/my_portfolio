@@ -38,7 +38,6 @@ my_portfolio/
 │   │   ├── Projects.tsx/.css
 │   │   ├── Skills.tsx/.css
 │   │   ├── Achievements.tsx/.css
-│   │   ├── Testimonials.tsx/.css
 │   │   ├── Contact.tsx/.css
 │   │   └── Footer.tsx/.css
 │   ├── App.tsx             # Main application
@@ -85,7 +84,6 @@ my_portfolio/
 2. **Content Customization:**
    - Replace placeholder images
    - Update project links
-   - Add your actual testimonials
    - Customize achievement data
 
 3. **SEO Optimization:**

@@ -175,9 +175,18 @@
 }
 
 .scalebrix-link {
-  background: linear-gradient(45deg, #667eea, #764ba2) !important;
+  background: linear-gradient(45deg, #ff8800, #fbbf24) !important;
   font-weight: bold;
   font-size: 1.2rem !important;
+  color: white !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 15px rgba(255, 136, 0, 0.4);
+}
+
+.scalebrix-link:hover {
+  background: linear-gradient(45deg, #fbbf24, #ff8800) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 136, 0, 0.6);
 }
 
 .hero-visual {

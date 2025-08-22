@@ -41,25 +41,29 @@
 }
 
 .contact-info-section {
-  background: white;
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 165, 0, 0.3);
   padding: 2.5rem;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   height: fit-content;
 }
 
 .info-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #ff8800;
   margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .info-description {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #64748b;
+  color: #ffffff;
   margin-bottom: 2rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .contact-methods {
@@ -104,44 +108,49 @@
 .method-title {
   font-size: 1rem;
   font-weight: 600;
-  color: #374151;
+  color: #ff8800;
   margin-bottom: 0.25rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .method-link {
-  color: #2563eb;
+  color: #fbbf24;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .method-link:hover {
-  color: #1d4ed8;
+  color: #ff8800;
   text-decoration: underline;
 }
 
 .method-text {
-  color: #4b5563;
+  color: #ffffff;
   font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .method-secondary {
   display: block;
-  color: #9ca3af;
+  color: #e2e8f0;
   font-size: 0.9rem;
   margin-top: 0.25rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .social-links {
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid rgba(255, 165, 0, 0.3);
   padding-top: 2rem;
 }
 
 .social-title {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #374151;
+  color: #ff8800;
   margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .social-grid {
@@ -153,39 +162,50 @@
 .social-link {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem 1rem;
-  border: 2px solid #e5e7eb;
-  border-radius: 12px;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid rgba(255, 165, 0, 0.5);
+  background: rgba(255, 165, 0, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
   text-decoration: none;
-  color: #4b5563;
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 600;
   transition: all 0.3s ease;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 136, 0, 0.2);
 }
 
 .social-link:hover {
-  border-color: var(--social-color);
-  color: var(--social-color);
-  background: rgba(102, 126, 234, 0.05);
+  border-color: #ff8800;
+  color: #ff8800;
+  background: rgba(255, 136, 0, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 136, 0, 0.4);
 }
 
 .social-link svg {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  color: #ff8800;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 .contact-form-section {
-  background: white;
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 165, 0, 0.3);
   padding: 2.5rem;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   height: fit-content;
 }
 
 .form-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #ff8800;
   margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .form-message {
@@ -229,27 +249,30 @@
   align-items: center;
   gap: 0.5rem;
   font-weight: 600;
-  color: #374151;
+  color: #ff8800;
   font-size: 0.95rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .form-input,
 .form-textarea {
   padding: 0.875rem 1rem;
-  border: 2px solid #e5e7eb;
+  border: 2px solid rgba(255, 165, 0, 0.3);
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
   font-size: 1rem;
-  color: #374151;
-  background: #ffffff;
+  color: #ffffff;
   transition: all 0.3s ease;
   font-family: inherit;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #ff8800;
+  box-shadow: 0 0 0 3px rgba(255, 136, 0, 0.2);
 }
 
 .form-textarea {

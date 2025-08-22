@@ -65,10 +65,7 @@ const Footer: React.FC = () => {
               innovative solutions with cutting-edge technologies. Building the 
               future, one line of code at a time.
             </p>
-            <div className="footer-highlight">
-              <span className="highlight-label">Currently:</span>
-              <span className="highlight-text">Building Scalebrix - AI SaaS Platform</span>
-            </div>
+            
           </motion.div>
 
           <motion.div 
