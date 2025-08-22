@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaExternalLinkAlt } from 'react-icons/fa';
 import './Hero.css';
@@ -8,14 +8,14 @@ const Hero: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const texts = [
+  const texts = useMemo(() => [
     "Full Stack Developer",
     "SaaS Cofounder", 
     "AR Innovator",
     "Problem Solver",
     "AI Enthusiast",
     "Prompt Engineer"
-  ];
+  ], []);
 
   useEffect(() => {
     const text = texts[currentIndex];

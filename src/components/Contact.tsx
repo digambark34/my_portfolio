@@ -46,17 +46,17 @@ const Contact: React.FC = () => {
 
     try {
       // Initialize EmailJS with your public key
-      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+      emailjs.init("yGi-p8NRAyp7w5j2x"); // Replace with your EmailJS public key
       
       await emailjs.send(
         "service_8yrx253", // EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+        "template_6w1asap", // Replace with your EmailJS template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          to_email: "digambarkothawale05@gmail.com"
+          to_email: "digambarkothawale2003@gmail.com"
         }
       );
 
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
     {
       icon: <FaMapMarkerAlt />,
       title: "Location",
-      content: "Pune, Maharashtra",
+      content: "Mumbai, Maharashtra",
       secondary: "India"
     }
   ];

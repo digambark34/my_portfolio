@@ -70,11 +70,11 @@ const About: React.FC = () => {
                   <span className="stat-label">Diploma</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">5+</span>
+                  <span className="stat-number">1+</span>
                   <span className="stat-label">Years Experience</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">20+</span>
+                  <span className="stat-number">11+</span>
                   <span className="stat-label">Projects Completed</span>
                 </div>
               </div>
@@ -107,7 +107,7 @@ const About: React.FC = () => {
                 </div>
                 <div className="highlight-content">
                   <h3>Achievements</h3>
-                  <p>First rank in Digital Hunt competition and winner of Bug-na-Bughta competition at MMCOE.</p>
+                  <p>First rank in Digital Hunt competition at ADYPSOE and winner of Bug-na-Bughta competition at MMCOE.</p>
                 </div>
               </div>
 

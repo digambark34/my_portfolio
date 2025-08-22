@@ -37,14 +37,14 @@ const Achievements: React.FC = () => {
       highlight: true
     },
     {
-      title: "Academic Excellence",
+      title: "Degree with First Class Distinction",
       description: "Maintained outstanding academic performance with CGPA of 7.96 in Computer Engineering",
       icon: <FaStar />,
       category: "Academic",
       year: "2022-2025"
     },
     {
-      title: "Diploma with Distinction",
+      title: "Diploma with First Distinction",
       description: "Completed Diploma in Computer Engineering with 87.60% from Yashwantrao Bhonsale Polytechnic",
       icon: <FaMedal />,
       category: "Academic",
