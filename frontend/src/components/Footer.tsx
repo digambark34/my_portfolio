@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
               </p>
               <p className="contact-item">
                 <span className="location-icon">📍</span>
-                <span>Pune, Maharashtra, India</span>
+                <span>Mumbai, Maharashtra, India</span>
               </p>
             </div>
             <div className="availability">
