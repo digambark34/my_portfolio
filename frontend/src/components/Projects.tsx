@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       title: "Virtual Try-On Jewelry",
       description: "AR-powered jewelry try-on experience using cutting-edge technologies",
       longDescription: "An innovative AR-powered virtual try-on jewelry application built with the MERN stack, incorporating advanced AR technology and AI/ML algorithms for realistic jewelry visualization. This application revolutionizes the online jewelry shopping experience by allowing customers to virtually try on jewelry items in real-time.",
-      image: "/api/placeholder/400/250",
+      image: "",
       technologies: ["MERN", "AR", "AI/ML", "Python", "Docker", "AWS", "Cloud"],
       category: "fullstack",
       features: [
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
       title: "Event Management System",
       description: "Comprehensive event registration and management platform with QR integration",
       longDescription: "A full-featured event management system built with React and Node.js that allows users to create, manage, and book events seamlessly. The platform includes real-time notifications, QR code integration, WhatsApp API, and comprehensive analytics for event organizers.",
-      image: "/api/placeholder/400/250",
+      image: "",
       technologies: ["React.js", "Node.js", "MongoDB", "QR Code", "WhatsApp API", "Email API"],
       category: "fullstack",
       githubUrl: "https://github.com/username/event-management",
@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
       title: "Car Rental System",
       description: "Dynamic car booking platform with comprehensive fleet management",
       longDescription: "A robust car rental management system built with PHP and MySQL, featuring real-time vehicle availability, user authentication, and administrative controls for fleet management. The system provides comprehensive booking management and rental tracking capabilities.",
-      image: "/api/placeholder/400/250",
+      image: "",
       technologies: ["PHP", "JavaScript", "MySQL", "HTML", "CSS"],
       category: "web",
       githubUrl: "https://github.com/username/car-rental",
@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
       title: "Personal Finance Manager",
       description: "Console-based finance tracking application for personal budget management",
       longDescription: "A comprehensive personal finance tracking solution developed in C# that provides users with efficient tools for managing their financial transactions, budgets, and expenses. The application features intuitive console interface and robust data management capabilities.",
-      image: "/api/placeholder/400/250",
+      image: "",
       technologies: ["C#", ".NET", "Console Application"],
       category: "desktop",
       githubUrl: "https://github.com/username/finance-manager",
@@ -158,7 +158,13 @@ const Projects: React.FC = () => {
               onClick={() => setSelectedProject(project)}
             >
               <div className="project-image">
-                <img src={project.image} alt={project.title} />
+                {project.image ? (
+                  <img src={project.image} alt={project.title} />
+                ) : (
+                  <div className="image-placeholder">
+                    <FaExternalLinkAlt />
+                  </div>
+                )}
                 <div className="project-overlay">
                   <FaExternalLinkAlt className="overlay-icon" />
                   <span>View Details</span>
@@ -219,7 +225,14 @@ const Projects: React.FC = () => {
               <div className="modal-header">
                 <h2>{selectedProject.title}</h2>
                 <div className="modal-image">
-                  <img src={selectedProject.image} alt={selectedProject.title} />
+                  {selectedProject.image ? (
+                    <img src={selectedProject.image} alt={selectedProject.title} />
+                  ) : (
+                    <div className="modal-image-placeholder">
+                      <FaExternalLinkAlt />
+                      <span>Project Screenshot</span>
+                    </div>
+                  )}
                 </div>
               </div>
 
