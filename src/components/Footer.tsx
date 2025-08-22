@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHeart, FaGithub, FaLinkedin, FaEnvelope, FaArrowUp, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaArrowUp, FaExternalLinkAlt } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer: React.FC = () => {
@@ -159,15 +159,7 @@ const Footer: React.FC = () => {
         >
           <div className="footer-bottom-content">
             <p className="copyright">
-              © {currentYear} Digambar Kothawale. Built with{' '}
-              <motion.span 
-                className="heart"
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 1, repeat: Infinity }}
-              >
-                <FaHeart />
-              </motion.span>{' '}
-              using React & TypeScript
+              © {currentYear} Digambar Kothawale. All rights reserved.
             </p>
             <div className="footer-actions">
               <span className="portfolio-version">v2.0</span>

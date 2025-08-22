@@ -13,7 +13,8 @@ const Hero: React.FC = () => {
     "SaaS Cofounder", 
     "AR Innovator",
     "Problem Solver",
-    "AI Enthusiast"
+    "AI Enthusiast",
+    "Prompt Engineer"
   ];
 
   useEffect(() => {

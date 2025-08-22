@@ -44,7 +44,7 @@ const About: React.FC = () => {
             <motion.div variants={itemVariants} className="about-text">
               <p>
                 I'm a passionate <strong>Full Stack Developer</strong> with a love for creating 
-                innovative digital solutions. Currently pursuing my B.E. in Computer Engineering 
+                innovative digital solutions. Completed my B.E. in Computer Engineering 
                 at Ajeenkya DY Patil School of Engineering with a <strong>CGPA of 7.96</strong>.
               </p>
               
@@ -55,9 +55,9 @@ const About: React.FC = () => {
               </p>
 
               <p>
-                I've successfully reduced event scheduling errors by <strong>30%</strong> through 
-                event management applications and improved application performance by <strong>15%</strong> 
-                through optimized code refactoring and efficient data handling mechanisms.
+                I'm passionate about building efficient and scalable solutions that solve real-world problems. 
+                My focus on clean code architecture and user-centric design has helped deliver high-quality 
+                applications throughout my career.
               </p>
 
               <div className="about-stats">
@@ -70,12 +70,12 @@ const About: React.FC = () => {
                   <span className="stat-label">Diploma</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">30%</span>
-                  <span className="stat-label">Error Reduction</span>
+                  <span className="stat-number">5+</span>
+                  <span className="stat-label">Years Experience</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">15%</span>
-                  <span className="stat-label">Performance Boost</span>
+                  <span className="stat-number">20+</span>
+                  <span className="stat-label">Projects Completed</span>
                 </div>
               </div>
             </motion.div>
